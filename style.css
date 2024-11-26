@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(127, 255, 187);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-first{
+    display: flex;
+}
+button{
+    width: 70px;
+    height: 30px;
+}
+
+.container{
+    width: 90px;
+    height: 90px;
+    background-color: plum;
+    border-style: double;
+    border: 1px solid white;
+    display: inline-block;
+    margin: 200px auto;
+    text-align: center;
+    
+}
+.hide{
+    display: none;
+}
